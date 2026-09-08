@@ -1,14 +1,9 @@
 # CI-CMS — Simulasi Pembelian Produk (CodeIgniter 4)
 
-CMS sederhana tanpa fitur login/register. Fokus pada implementasi CRUD (Create,
-Read, Update, Delete) untuk mengelola **Produk** dan mensimulasikan **Pembelian**
-(stok berkurang saat "dibeli", dan bisa dibatalkan/diedit).
-
 ## Tech Stack
 - Framework: **CodeIgniter 4**
 - Database: Migration bawaan CodeIgniter (`php spark migrate`)
-- Server dev: `php spark serve`
-- UI: HTML + CSS murni, palet 3 warna flat (tanpa gradasi)
+- UI: HTML dan CSS murni
 
 ## Struktur Fitur
 - **Products** — CRUD penuh (tambah, lihat, edit, hapus produk + stok & harga)
