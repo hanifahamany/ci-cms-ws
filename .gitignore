@@ -42,8 +42,18 @@ $RECYCLE.BIN/
 # These should never be under version control,
 # as it poses a security risk.
 .env
+.env.*
+!.env.example
 .vagrant
 Vagrantfile
+.phpunit.result.cache
+.phpunit.cache
+
+# CI4 build and local cache artifacts
+/build/
+build/
+*.log
+php_errors.log
 
 #-------------------------
 # Temporary Files
@@ -62,8 +72,6 @@ Vagrantfile
 
 /writable/debugbar/*
 !/writable/debugbar/index.html
-
-php_errors.log
 
 #-------------------------
 # User Guide Temp Files
