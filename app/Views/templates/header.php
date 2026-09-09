@@ -12,6 +12,7 @@
         <div class="navbar-links">
             <a href="<?= base_url('/') ?>">Dashboard</a>
             <a href="<?= base_url('products') ?>">Produk</a>
+            <a href="<?= base_url('users') ?>">User</a>
             <a href="<?= base_url('purchases') ?>">Pembelian</a>
         </div>
     </nav>
@@ -34,3 +35,6 @@
                 </ul>
             </div>
         <?php endif; ?>
+    </main>
+</body>
+</html>

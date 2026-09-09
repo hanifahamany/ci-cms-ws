@@ -16,7 +16,7 @@ class Products extends BaseController
     // READ (list semua produk)
     public function index()
     {
-        $data['products'] = $this->productModel->orderBy('product_id', 'DESC')->findAll();
+        $data['products'] = $this->productModel->orderBy('product_id', 'ASC')->findAll();
         return view('products/index', $data);
     }
 

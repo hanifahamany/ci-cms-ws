@@ -1,8 +1,11 @@
 <?= $this->include('templates/header') ?>
 
 <div class="page-head">
+    <a href="<?= base_url('/') ?>" class="btn btn-secondary">← Kembali</a>
     <h2>Riwayat Pembelian</h2>
-    <a href="<?= base_url('purchases/create') ?>" class="btn btn-primary">+ Simulasikan Pembelian</a>
+    <div class="actions">
+        <a href="<?= base_url('purchases/create') ?>" class="btn btn-primary">+ Simulasikan Pembelian</a>
+    </div>
 </div>
 
 <table class="table">

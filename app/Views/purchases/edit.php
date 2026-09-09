@@ -1,6 +1,9 @@
 <?= $this->include('templates/header') ?>
 
-<h2>Edit Data Pembelian</h2>
+<div class="page-head">
+    <a href="<?= base_url('/') ?>" class="btn btn-secondary">← Kembali</a>
+    <h2>Edit Data Pembelian</h2>
+</div>
 
 <form action="<?= base_url('purchases/update/' . $transaction['transaction_id']) ?>" method="post" class="form">
     <?= csrf_field() ?>

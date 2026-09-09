@@ -11,22 +11,22 @@ class TransactionSeeder extends Seeder
         $data = [
             [
                 'transaction_id' => 1, 
-                'user_id' => 1,         // Budi Santoso
-                'product_id' => 1,      // Laptop ASUS ROG
+                'user_id' => 1,         
+                'product_id' => 1,      
                 'payment_method' => 'Credit Card', 
                 'qty' => 1
             ],
             [
                 'transaction_id' => 2, 
-                'user_id' => 2,         // Siti Aminah
-                'product_id' => 3,      // Keyboard Mechanical
+                'user_id' => 2,         
+                'product_id' => 3,      
                 'payment_method' => 'Bank Transfer', 
                 'qty' => 2
             ],
             [
                 'transaction_id' => 3, 
-                'user_id' => 1,         // Budi Santoso
-                'product_id' => 2,      // Mouse Wireless
+                'user_id' => 1,         
+                'product_id' => 2,      
                 'payment_method' => 'E-Wallet', 
                 'qty' => 1
             ],

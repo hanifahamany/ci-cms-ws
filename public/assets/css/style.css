@@ -23,6 +23,11 @@ body {
     color: var(--color-dark);
 }
 
+main.container {
+    width: min(900px, calc(100% - 32px));
+    margin: 0 auto;
+}
+
 /* ---------- Navbar ---------- */
 .navbar {
     background-color: var(--color-dark);
@@ -53,9 +58,31 @@ body {
 
 /* ---------- Container ---------- */
 .container {
-    max-width: 960px;
+    width: min(900px, calc(100% - 32px));
     margin: 0 auto;
     padding: 24px 16px;
+}
+
+.page-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin: 0 auto 16px;
+    width: min(900px, calc(100% - 32px));
+}
+
+.page-head>h2 {
+    margin: 0;
+    flex: 1;
+}
+
+.page-head>.btn-secondary {
+    margin-right: auto;
+}
+
+.page-head .actions {
+    margin-left: auto;
 }
 
 /* ---------- Hero (Dashboard) ---------- */
@@ -111,7 +138,8 @@ body {
 
 /* ---------- Table ---------- */
 .table {
-    width: 100%;
+    width: min(100%, 900px);
+    margin: 0 auto;
     border-collapse: collapse;
     background-color: var(--color-light);
 }
@@ -129,7 +157,8 @@ body {
 }
 
 .table tbody tr:nth-child(even) {
-    background-color: #e7e9e8; /* variasi terang dari --color-light, bukan warna baru */
+    background-color: #e7e9e8;
+    /* variasi terang dari --color-light, bukan warna baru */
 }
 
 .actions {
@@ -146,7 +175,8 @@ body {
 .form {
     display: flex;
     flex-direction: column;
-    max-width: 480px;
+    width: min(100%, 480px);
+    margin: 0 auto;
     background-color: var(--color-light);
     border: 1px solid var(--color-dark);
     border-radius: 4px;

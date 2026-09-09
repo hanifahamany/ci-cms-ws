@@ -1,7 +1,7 @@
     </main>
 
     <footer class="footer">
-        <p>&copy; <?= date('Y') ?> CI-CMS &mdash; Simulasi Proses Pembelian Produk</p>
+        <p>&copy; <?= date('Y') ?> Content Management System &mdash; CodeIgniter 4</p>
     </footer>
 </body>
 </html>

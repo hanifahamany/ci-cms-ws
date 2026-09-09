@@ -18,7 +18,7 @@ class TransactionModel extends Model
         return $this->select('transactions.*, users.name as user_name, products.product_name, products.price')
             ->join('users', 'users.user_id = transactions.user_id')
             ->join('products', 'products.product_id = transactions.product_id')
-            ->orderBy('transactions.transaction_id', 'DESC')
+            ->orderBy('transactions.transaction_id', 'ASC')
             ->findAll();
     }
 }

@@ -1,6 +1,9 @@
 <?= $this->include('templates/header') ?>
 
-<h2>Edit Produk</h2>
+<div class="page-head">
+    <a href="<?= base_url('/') ?>" class="btn btn-secondary">← Kembali</a>
+    <h2>Edit Produk</h2>
+</div>
 
 <form action="<?= base_url('products/update/' . $product['product_id']) ?>" method="post" class="form">
     <?= csrf_field() ?>

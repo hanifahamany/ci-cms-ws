@@ -22,3 +22,11 @@ $routes->post('purchases/store', 'Purchases::store');
 $routes->get('purchases/edit/(:num)', 'Purchases::edit/$1');
 $routes->post('purchases/update/(:num)', 'Purchases::update/$1');
 $routes->post('purchases/delete/(:num)', 'Purchases::delete/$1');
+
+// ================= Users (CRUD) =================
+$routes->get('users', 'Users::index');
+$routes->get('users/create', 'Users::create');
+$routes->post('users/store', 'Users::store');
+$routes->get('users/edit/(:num)', 'Users::edit/$1');
+$routes->post('users/update/(:num)', 'Users::update/$1');
+$routes->post('users/delete/(:num)', 'Users::delete/$1');
