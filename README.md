@@ -1,4 +1,4 @@
-# CI-CMS — Simulasi Pembelian Produk (CodeIgniter 4)
+# Content Management System CodeIgniter 4
 
 ## 🛠️ Tech Stack
 * **Framework:** CodeIgniter 4
